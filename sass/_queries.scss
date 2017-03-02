@@ -1,0 +1,16 @@
+// MEDIA QUERY - FUNCTION CALL
+@include tablet {
+    ul {
+        li {
+            a {
+                width: calc(25% - 1rem + 0.25rem);
+                float: left;
+                margin: 0 1rem 0 0;
+            }
+            
+            &:last-child a {
+                margin: 0;
+            }
+        }
+    }
+}

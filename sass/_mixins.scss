@@ -1,0 +1,9 @@
+// CREATE FUNCTIONS
+@mixin tablet {
+    @media all and (min-width: 35rem) {
+        
+        /* 
+        @content is like a placeholder for CSS rules to be used later on in the code - adjustments for tablet view-port */
+        @content;
+    }
+}
