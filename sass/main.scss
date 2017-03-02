@@ -32,7 +32,6 @@ h1 {
 	max-width: 80rem;
     margin: 0 auto;
 }
-
 // NESTING - CREATING THE HTML-LIKE STRUCTURE
 
 ul {
@@ -45,7 +44,7 @@ ul {
 	text-decoration: none;
         
         // INHERITANCE
-            @extend %capital-letters;
+            //@extend %capital-letters;
             
             // PARENT SELECTOR
             &:hover {
